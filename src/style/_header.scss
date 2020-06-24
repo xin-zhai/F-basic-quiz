@@ -1,0 +1,10 @@
+.header {
+  position: fixed;
+  margin-top: $header-margin-top;
+  margin-left: 150px;
+  img {
+    width: $img-width-height;
+    height: $img-width-height;
+    border-radius: 50%;
+  }
+}

@@ -14,10 +14,16 @@
     "format": "prettier --write \"src/**/*.{js,css,scss,html}\""
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.10.2",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/runtime": "^7.10.3",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.0.1",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-airbnb": "^5.0.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
@@ -32,6 +38,8 @@
     "lint-staged": ">=10",
     "parcel-bundler": "^1.12.4",
     "prettier": "2.0.5",
+    "react-bootstrap": "^1.0.1",
+    "react-scripts": "3.4.0",
     "sass": "^1.26.8"
   },
   "husky": {
@@ -42,5 +50,10 @@
   "lint-staged": {
     "*.js": "eslint \"src/\" --cache --fix --format table",
     "*.{js,css,scss,html}": "prettier --write"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react-dom": "^16.13.1",
+    "react": "^16.13.1"
   }
 }

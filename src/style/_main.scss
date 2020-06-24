@@ -1,0 +1,23 @@
+.main {
+  padding: $main-padding-x $main-padding-y;
+  background-color: white;
+  position: initial;
+  margin-top: $main-margin-top;
+  h2 {
+    text-align: center;
+  }
+  h3:first-of-type {
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid darkgrey;
+    background: transparent;
+    outline: none;
+    width: 100%;
+  }
+  h3:nth-of-type(2) {
+    color: red;
+  }
+  h3:nth-of-type(3) {
+    color: red;
+  }
+}

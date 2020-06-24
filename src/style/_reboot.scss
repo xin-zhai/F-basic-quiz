@@ -10,6 +10,10 @@ body {
   color: $color-base;
   background-color: $body-bg;
   line-height: $line-height-base;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 * {
